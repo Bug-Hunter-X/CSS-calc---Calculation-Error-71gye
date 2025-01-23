@@ -1,0 +1,13 @@
+/* Incorrect usage of calc(), causing layout issues */
+.element {
+  width: calc(100% - 50px + 10em); /* Mixing units without proper conversion */
+}
+
+/* Corrected usage of calc() */
+.element {
+  width: calc(100% - 50px); /* Corrected calculation */
+}
+/* Or converting em to px using another calc */
+.element {
+  width: calc(100% - 50px + (10em * 16px));
+}
