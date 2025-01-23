@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly. The calculation within the `calc()` function results in an invalid value, leading to unexpected rendering or layout issues. For example, using an unsupported unit within the calculation or forgetting an operator between values.
